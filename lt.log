@@ -1,0 +1,530 @@
+{"level":"debug","time":"2023-09-02T05:16:20.238+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-09-02T05:16:22.319+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-09-02T05:16:22.321+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-09-02T05:16:22.322+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-09-02T05:16:22.322+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"warn","time":"2023-09-02T05:16:22.322+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: 40c4698b-630a-423d-88d7-6c118cb5a887"}
+{"level":"debug","time":"2023-09-02T05:16:22.323+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user rahulkumarlambdatest --key *****"}
+{"level":"debug","time":"2023-09-02T05:16:22.856+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-09-02T05:16:24.762+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-09-02T05:16:24.762+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2023-09-02T05:16:24.762+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-09-02T05:16:24.764+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"warn","time":"2023-09-02T05:16:24.766+0530","caller":"custom/setup.go:668","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2023-09-02T05:16:24.773+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :62906"}
+{"level":"debug","time":"2023-09-02T05:16:24.859+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-09-02T05:16:25.471+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-09-02T05:16:25.482+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-09-02T05:16:25.499+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2023-09-02T05:16:25.499+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-09-02T05:16:25.500+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-09-02T05:16:25.502+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-09-02T05:16:25.600+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:16:25.600+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:16:27.223+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-09-02T05:16:27.223+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-09-02T05:16:27.223+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-09-02T05:16:27.223+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-09-02T05:16:27.883+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 23605"}
+{"level":"debug","time":"2023-09-02T05:16:27.887+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 29959"}
+{"level":"info","time":"2023-09-02T05:16:27.887+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-09-02T05:16:27.887+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4608415"}
+{"level":"debug","time":"2023-09-02T05:16:27.887+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 21291"}
+{"level":"debug","time":"2023-09-02T05:16:27.893+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 9444"}
+{"level":"debug","time":"2023-09-02T05:16:28.009+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 20769"}
+{"level":"debug","time":"2023-09-02T05:16:28.022+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 27993"}
+{"level":"info","time":"2023-09-02T05:19:36.683+0530","caller":"ws/control.go:158","msg":"Tunnel closure requested from server. Exiting"}
+{"level":"debug","time":"2023-09-02T05:25:56.530+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-09-02T05:25:57.262+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-09-02T05:25:57.265+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-09-02T05:25:57.266+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-09-02T05:25:57.266+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"warn","time":"2023-09-02T05:25:57.266+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: e8a443f2-ffec-4404-9712-ea5d63b016a5"}
+{"level":"debug","time":"2023-09-02T05:25:57.268+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user rahulkumarlambdatest --key *****"}
+{"level":"debug","time":"2023-09-02T05:25:57.788+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-09-02T05:25:59.574+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-09-02T05:25:59.575+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-09-02T05:25:59.575+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-09-02T05:25:59.575+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"info","time":"2023-09-02T05:25:59.577+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2023-09-02T05:25:59.684+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-09-02T05:26:00.281+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-09-02T05:26:00.310+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2023-09-02T05:26:00.312+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"info","time":"2023-09-02T05:26:00.313+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-09-02T05:26:00.313+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-09-02T05:26:00.314+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-09-02T05:26:01.289+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:26:01.289+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:26:02.258+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-09-02T05:26:02.258+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-09-02T05:26:02.258+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-09-02T05:26:02.258+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-09-02T05:26:02.926+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 17402"}
+{"level":"debug","time":"2023-09-02T05:26:02.938+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 5810"}
+{"level":"info","time":"2023-09-02T05:26:02.939+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-09-02T05:26:02.939+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4608432"}
+{"level":"debug","time":"2023-09-02T05:26:02.940+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 29984"}
+{"level":"debug","time":"2023-09-02T05:26:02.945+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 11793"}
+{"level":"debug","time":"2023-09-02T05:26:02.999+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 6772"}
+{"level":"debug","time":"2023-09-02T05:26:03.028+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 4747"}
+{"level":"debug","time":"2023-09-02T05:26:56.795+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-09-02T05:26:57.982+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-09-02T05:26:57.983+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-09-02T05:26:57.983+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-09-02T05:26:57.983+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"warn","time":"2023-09-02T05:26:57.983+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: 950d8c24-6c8a-432a-9883-344be08f46d7"}
+{"level":"debug","time":"2023-09-02T05:26:57.984+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user rahulkumarlambdatest --key *****"}
+{"level":"debug","time":"2023-09-02T05:26:58.452+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-09-02T05:26:59.029+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-09-02T05:26:59.029+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2023-09-02T05:26:59.029+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-09-02T05:26:59.029+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"warn","time":"2023-09-02T05:26:59.031+0530","caller":"custom/setup.go:668","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2023-09-02T05:26:59.039+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :50486"}
+{"level":"debug","time":"2023-09-02T05:26:59.137+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-09-02T05:26:59.717+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-09-02T05:26:59.724+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2023-09-02T05:26:59.746+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"info","time":"2023-09-02T05:26:59.747+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-09-02T05:26:59.748+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-09-02T05:26:59.748+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-09-02T05:26:59.860+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:26:59.861+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:27:01.374+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-09-02T05:27:01.374+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-09-02T05:27:01.374+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-09-02T05:27:01.374+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-09-02T05:27:02.044+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 20406"}
+{"level":"debug","time":"2023-09-02T05:27:02.055+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 4630"}
+{"level":"info","time":"2023-09-02T05:27:02.055+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-09-02T05:27:02.055+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4608433"}
+{"level":"debug","time":"2023-09-02T05:27:02.055+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 26158"}
+{"level":"debug","time":"2023-09-02T05:27:02.064+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 21115"}
+{"level":"debug","time":"2023-09-02T05:27:02.152+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 16796"}
+{"level":"debug","time":"2023-09-02T05:27:02.185+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 17122"}
+{"level":"debug","time":"2023-09-02T05:28:56.647+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-09-02T05:28:56.956+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-09-02T05:28:56.956+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-09-02T05:28:56.956+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-09-02T05:28:56.956+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"warn","time":"2023-09-02T05:28:56.956+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: 94c05e89-ed25-4697-9a20-52c4ea88830e"}
+{"level":"debug","time":"2023-09-02T05:28:56.957+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user rahulkumarlambdatest --key ***** tunnelName Rahul"}
+{"level":"debug","time":"2023-09-02T05:28:57.483+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-09-02T05:28:57.846+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-09-02T05:28:57.846+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-09-02T05:28:57.846+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2023-09-02T05:28:57.846+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"warn","time":"2023-09-02T05:28:57.847+0530","caller":"custom/setup.go:668","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2023-09-02T05:28:57.853+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :51251"}
+{"level":"debug","time":"2023-09-02T05:28:57.932+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-09-02T05:28:58.528+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-09-02T05:28:58.539+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-09-02T05:28:58.547+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2023-09-02T05:28:58.547+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-09-02T05:28:58.547+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-09-02T05:28:58.548+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-09-02T05:28:58.636+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:28:58.636+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:29:00.210+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-09-02T05:29:00.210+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-09-02T05:29:00.210+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-09-02T05:29:00.210+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-09-02T05:29:00.924+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 7499"}
+{"level":"debug","time":"2023-09-02T05:29:00.924+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 31825"}
+{"level":"info","time":"2023-09-02T05:29:00.924+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-09-02T05:29:00.924+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4608437"}
+{"level":"debug","time":"2023-09-02T05:29:00.924+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 31670"}
+{"level":"debug","time":"2023-09-02T05:29:00.930+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 11637"}
+{"level":"debug","time":"2023-09-02T05:29:01.024+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 22153"}
+{"level":"debug","time":"2023-09-02T05:29:01.033+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 19500"}
+{"level":"debug","time":"2023-09-02T05:31:44.095+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-09-02T05:31:44.913+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-09-02T05:31:44.914+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-09-02T05:31:44.914+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-09-02T05:31:44.914+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2023-09-02T05:31:44.914+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user rahulkumarlambdatest --key ***** --tunnelName Rahul"}
+{"level":"debug","time":"2023-09-02T05:31:46.159+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-09-02T05:31:46.598+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-09-02T05:31:46.599+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2023-09-02T05:31:46.598+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-09-02T05:31:46.599+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"warn","time":"2023-09-02T05:31:46.600+0530","caller":"custom/setup.go:668","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2023-09-02T05:31:46.605+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :52499"}
+{"level":"debug","time":"2023-09-02T05:31:46.693+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-09-02T05:31:47.282+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-09-02T05:31:47.292+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-09-02T05:31:47.310+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2023-09-02T05:31:47.310+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-09-02T05:31:47.310+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-09-02T05:31:47.311+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-09-02T05:31:47.399+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:31:47.399+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:31:48.915+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-09-02T05:31:48.915+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-09-02T05:31:48.915+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-09-02T05:31:48.916+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-09-02T05:31:49.584+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 21914"}
+{"level":"debug","time":"2023-09-02T05:31:49.606+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 22226"}
+{"level":"info","time":"2023-09-02T05:31:49.606+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-09-02T05:31:49.606+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4608448"}
+{"level":"debug","time":"2023-09-02T05:31:49.606+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 1787"}
+{"level":"debug","time":"2023-09-02T05:31:49.606+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 1472"}
+{"level":"debug","time":"2023-09-02T05:31:49.679+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 27548"}
+{"level":"debug","time":"2023-09-02T05:31:49.679+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 5653"}
+{"level":"debug","time":"2023-09-02T05:32:30.224+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-09-02T05:32:31.744+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-09-02T05:32:31.747+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-09-02T05:32:31.748+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-09-02T05:32:31.748+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2023-09-02T05:32:31.748+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user rahulkumarlambdatest --key ***** --tunnelName Rahul Tunnel"}
+{"level":"debug","time":"2023-09-02T05:32:32.242+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-09-02T05:32:32.705+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-09-02T05:32:32.705+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2023-09-02T05:32:32.705+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-09-02T05:32:32.705+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"warn","time":"2023-09-02T05:32:32.710+0530","caller":"custom/setup.go:668","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2023-09-02T05:32:32.714+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :52796"}
+{"level":"debug","time":"2023-09-02T05:32:32.803+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-09-02T05:32:33.407+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-09-02T05:32:33.413+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-09-02T05:32:33.436+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2023-09-02T05:32:33.436+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-09-02T05:32:33.436+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-09-02T05:32:33.436+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-09-02T05:32:33.532+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:32:33.532+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:32:35.030+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-09-02T05:32:35.030+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-09-02T05:32:35.031+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-09-02T05:32:35.031+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-09-02T05:32:35.685+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 25021"}
+{"level":"debug","time":"2023-09-02T05:32:35.700+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 4333"}
+{"level":"info","time":"2023-09-02T05:32:35.700+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-09-02T05:32:35.700+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4608450"}
+{"level":"debug","time":"2023-09-02T05:32:35.700+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 10967"}
+{"level":"debug","time":"2023-09-02T05:32:35.708+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 30091"}
+{"level":"debug","time":"2023-09-02T05:32:35.820+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 8227"}
+{"level":"debug","time":"2023-09-02T05:32:35.826+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 17539"}
+{"level":"debug","time":"2023-09-02T05:47:52.825+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-09-02T05:47:53.995+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-09-02T05:47:53.996+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-09-02T05:47:53.996+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-09-02T05:47:53.996+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2023-09-02T05:47:53.997+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user rahulkumarlambdatest --key ***** --tunnelName Rahul Tunnel"}
+{"level":"debug","time":"2023-09-02T05:47:54.512+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-09-02T05:47:54.915+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-09-02T05:47:54.915+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-09-02T05:47:54.915+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-09-02T05:47:54.915+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"warn","time":"2023-09-02T05:47:54.917+0530","caller":"custom/setup.go:668","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2023-09-02T05:47:54.923+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :58333"}
+{"level":"debug","time":"2023-09-02T05:47:55.006+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-09-02T05:47:55.618+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-09-02T05:47:55.618+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-09-02T05:47:55.652+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2023-09-02T05:47:55.652+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-09-02T05:47:55.652+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-09-02T05:47:55.653+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-09-02T05:47:55.739+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:47:55.739+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"error","time":"2023-09-02T05:47:56.913+0530","caller":"tunnelmanager/controller.go:103","msg":"conflict: Tunnel with name: Rahul Tunnel is already running for user rahulkumar@lambdatest.com"}
+{"level":"error","time":"2023-09-02T05:47:56.913+0530","caller":"core/lifecycle.go:253","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: Rahul Tunnel is already running for user rahulkumar@lambdatest.com "}
+{"level":"debug","time":"2023-09-02T05:57:47.625+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-09-02T05:57:47.627+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:47.628+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:47.628+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:47.628+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed read tcp 192.168.1.35:50093->13.126.37.58:443: i/o timeout "}
+{"level":"debug","time":"2023-09-02T05:57:48.278+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:48.279+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:48.420+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:48.420+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:48.420+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-02T05:57:48.420+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:48.420+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:48.808+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:48.808+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:48.957+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:48.957+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:48.957+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:48.957+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:48.957+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:49.273+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:49.274+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:49.274+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:49.274+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed read tcp 192.168.1.35:52505->13.126.37.58:443: i/o timeout "}
+{"level":"debug","time":"2023-09-02T05:57:49.274+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:49.526+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:49.527+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:49.679+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:49.679+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:49.679+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:49.679+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:49.679+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:50.443+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:50.444+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:50.444+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:50.444+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed read tcp 192.168.1.35:52806->13.126.37.58:443: i/o timeout "}
+{"level":"debug","time":"2023-09-02T05:57:50.444+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:50.575+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:50.575+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:50.578+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:50.579+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:50.579+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-02T05:57:50.579+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:50.579+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed read tcp 192.168.1.35:51266->13.126.37.58:443: i/o timeout "}
+{"level":"debug","time":"2023-09-02T05:57:50.604+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:50.604+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"debug","time":"2023-09-02T05:57:50.604+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"warn","time":"2023-09-02T05:57:50.604+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:50.604+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:50.776+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:50.776+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:50.800+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:50.800+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:50.800+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:50.801+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:50.800+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:51.147+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:51.147+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:51.169+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-09-02T05:57:51.169+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:51.169+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:51.169+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:51.169+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:51.194+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:51.194+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:51.217+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-09-02T05:57:51.217+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:51.217+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:51.217+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:51.217+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:51.479+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:51.479+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:51.505+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:51.506+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:51.506+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-02T05:57:51.506+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:51.506+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:51.740+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:51.740+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:51.741+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:51.741+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed read tcp 192.168.1.35:50495->13.126.37.58:443: i/o timeout "}
+{"level":"debug","time":"2023-09-02T05:57:51.741+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:52.267+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:52.267+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:52.294+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:52.295+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:52.295+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:52.295+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:52.295+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:52.326+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:52.326+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:52.351+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:52.351+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:52.351+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-02T05:57:52.351+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:52.352+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:52.634+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:52.634+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:52.657+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:52.658+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"debug","time":"2023-09-02T05:57:52.658+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"warn","time":"2023-09-02T05:57:52.658+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:52.658+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:53.438+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:53.439+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:53.461+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:53.461+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:53.461+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-02T05:57:53.461+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:53.461+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:53.498+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:53.498+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:53.525+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:53.525+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:53.525+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:53.525+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:53.525+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:54.350+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:54.350+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:54.373+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:54.373+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:54.373+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:54.373+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:54.373+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:55.273+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:55.274+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:55.297+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:55.297+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:55.297+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:55.297+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:55.297+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:55.601+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:55.601+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:55.624+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:55.624+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:55.624+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:55.624+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:55.624+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-02T05:57:56.580+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:56.580+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:56.603+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:56.604+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:56.604+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-02T05:57:56.604+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:56.604+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:57.535+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:57.536+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:57.558+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-09-02T05:57:57.558+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:57.558+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:57.558+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:57.558+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:58.431+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:58.431+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:58.454+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:57:58.454+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:58.454+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-02T05:57:58.454+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:58.454+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:57:59.700+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:57:59.700+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:57:59.721+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-09-02T05:57:59.722+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:57:59.722+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:57:59.722+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:57:59.722+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:58:03.777+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:58:03.777+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:58:03.799+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:58:03.800+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:58:03.800+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:58:03.800+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-02T05:58:03.800+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:58:03.800+0530","caller":"core/lifecycle.go:345","msg":"Err occurred: ERR::CTRL::CONN::MAX::ATTEMPT : Control websocket reconnection max attempt reached "}
+{"level":"error","time":"2023-09-02T05:58:03.800+0530","caller":"core/lifecycle.go:346","msg":"Aborting"}
+{"level":"info","time":"2023-09-02T05:58:04.259+0530","caller":"core/lifecycle.go:367","msg":"Tunnel stopped successfully"}
+{"level":"error","time":"2023-09-02T05:58:04.259+0530","caller":"cmd/lt.go:217","msg":"Aborting"}
+{"level":"debug","time":"2023-09-02T05:58:04.988+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:58:04.988+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:58:05.010+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:58:05.010+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:58:05.010+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-02T05:58:05.010+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:58:05.010+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2023-09-02T05:58:05.011+0530","caller":"core/lifecycle.go:345","msg":"Err occurred: ERR::CTRL::CONN::MAX::ATTEMPT : Control websocket reconnection max attempt reached "}
+{"level":"error","time":"2023-09-02T05:58:05.011+0530","caller":"core/lifecycle.go:346","msg":"Aborting"}
+{"level":"debug","time":"2023-09-02T05:58:05.383+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:58:05.383+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:58:05.406+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-09-02T05:58:05.406+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-02T05:58:05.406+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:58:05.406+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:58:05.406+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2023-09-02T05:58:05.406+0530","caller":"core/lifecycle.go:345","msg":"Err occurred: ERR::CTRL::CONN::MAX::ATTEMPT : Control websocket reconnection max attempt reached "}
+{"level":"error","time":"2023-09-02T05:58:05.406+0530","caller":"core/lifecycle.go:346","msg":"Aborting"}
+{"level":"info","time":"2023-09-02T05:58:05.470+0530","caller":"core/lifecycle.go:367","msg":"Tunnel stopped successfully"}
+{"level":"error","time":"2023-09-02T05:58:05.470+0530","caller":"cmd/lt.go:217","msg":"Aborting"}
+{"level":"info","time":"2023-09-02T05:58:05.870+0530","caller":"core/lifecycle.go:367","msg":"Tunnel stopped successfully"}
+{"level":"error","time":"2023-09-02T05:58:05.871+0530","caller":"cmd/lt.go:217","msg":"Aborting"}
+{"level":"debug","time":"2023-09-02T05:58:06.600+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:58:06.600+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:58:06.624+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:58:06.624+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"debug","time":"2023-09-02T05:58:06.624+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"warn","time":"2023-09-02T05:58:06.624+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:58:06.625+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2023-09-02T05:58:06.625+0530","caller":"core/lifecycle.go:345","msg":"Err occurred: ERR::CTRL::CONN::MAX::ATTEMPT : Control websocket reconnection max attempt reached "}
+{"level":"error","time":"2023-09-02T05:58:06.625+0530","caller":"core/lifecycle.go:346","msg":"Aborting"}
+{"level":"info","time":"2023-09-02T05:58:07.084+0530","caller":"core/lifecycle.go:367","msg":"Tunnel stopped successfully"}
+{"level":"error","time":"2023-09-02T05:58:07.084+0530","caller":"cmd/lt.go:217","msg":"Aborting"}
+{"level":"debug","time":"2023-09-02T05:58:07.414+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-02T05:58:07.414+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-02T05:58:07.437+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-02T05:58:07.437+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-02T05:58:07.437+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-02T05:58:07.437+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"error","time":"2023-09-02T05:58:07.437+0530","caller":"core/lifecycle.go:345","msg":"Err occurred: ERR::CTRL::CONN::MAX::ATTEMPT : Control websocket reconnection max attempt reached "}
+{"level":"error","time":"2023-09-02T05:58:07.437+0530","caller":"core/lifecycle.go:346","msg":"Aborting"}
+{"level":"debug","time":"2023-09-02T05:58:07.437+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"info","time":"2023-09-02T05:58:07.898+0530","caller":"core/lifecycle.go:367","msg":"Tunnel stopped successfully"}
+{"level":"error","time":"2023-09-02T05:58:07.898+0530","caller":"cmd/lt.go:217","msg":"Aborting"}
+{"level":"debug","time":"2023-09-02T05:58:07.898+0530","caller":"custom/setup.go:724","msg":"Exiting the sink proxy"}
+{"level":"debug","time":"2023-09-04T18:12:55.746+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-09-04T18:12:56.312+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-09-04T18:12:56.312+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-09-04T18:12:56.313+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-09-04T18:12:56.313+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2023-09-04T18:12:56.313+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user rahulkumarlambdatest --key ***** --tunnelName Rahul Tunnel"}
+{"level":"debug","time":"2023-09-04T18:12:56.951+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-09-04T18:12:57.152+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-09-04T18:12:57.152+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-09-04T18:12:57.152+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-09-04T18:12:57.152+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"info","time":"2023-09-04T18:12:57.153+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2023-09-04T18:12:57.275+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-09-04T18:12:58.012+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-09-04T18:12:58.019+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2023-09-04T18:12:58.161+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"info","time":"2023-09-04T18:12:58.161+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-09-04T18:12:58.162+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-09-04T18:12:58.162+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-09-04T18:12:58.654+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-04T18:12:58.654+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-04T18:13:00.195+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-09-04T18:13:00.195+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-09-04T18:13:00.195+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-09-04T18:13:00.195+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-09-04T18:13:01.054+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 28118"}
+{"level":"debug","time":"2023-09-04T18:13:01.060+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 1159"}
+{"level":"info","time":"2023-09-04T18:13:01.060+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-09-04T18:13:01.060+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4622047"}
+{"level":"debug","time":"2023-09-04T18:13:01.060+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 11324"}
+{"level":"debug","time":"2023-09-04T18:13:01.081+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 23833"}
+{"level":"debug","time":"2023-09-04T18:13:01.282+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 4945"}
+{"level":"debug","time":"2023-09-04T18:13:01.282+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 5794"}
+{"level":"debug","time":"2023-09-04T18:17:06.447+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-09-04T18:17:06.448+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-04T18:17:06.448+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-04T18:17:06.448+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-04T18:17:06.448+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-04T18:17:06.992+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-04T18:17:06.992+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-04T18:48:29.518+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-04T18:48:29.521+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-04T18:48:29.522+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-04T18:48:29.522+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed read tcp 192.168.101.94:63689->13.126.37.58:443: i/o timeout "}
+{"level":"debug","time":"2023-09-04T18:48:29.523+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-04T18:48:31.029+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-04T18:48:31.030+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-04T18:48:31.065+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-04T18:48:31.067+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-04T18:48:31.068+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-04T18:48:31.069+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-04T18:48:31.072+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-04T18:48:32.007+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-04T18:48:32.029+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-04T18:48:32.061+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-04T18:48:32.063+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-04T18:48:32.063+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-04T18:48:32.063+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-04T18:48:32.064+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-09-04T18:48:39.091+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-04T18:48:39.092+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-04T18:48:39.125+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-04T18:48:39.126+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-04T18:48:39.127+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"debug","time":"2023-09-04T18:48:39.127+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-04T18:48:39.128+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-04T18:48:57.349+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-09-04T18:48:57.349+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-09-04T18:48:57.409+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"error","time":"2023-09-04T18:48:57.409+0530","caller":"ws/control.go:79","msg":"Control connection break error"}
+{"level":"warn","time":"2023-09-04T18:48:57.409+0530","caller":"ws/control.go:80","msg":"Retrying"}
+{"level":"error","time":"2023-09-04T18:48:57.409+0530","caller":"ws/control.go:81","msg":"ERR::WS::CTRL::CONN::DWN : Control websocket connection closed websocket: close 1006 (abnormal closure): unexpected EOF "}
+{"level":"debug","time":"2023-09-04T18:48:57.409+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2023-09-04T18:48:57.410+0530","caller":"core/lifecycle.go:345","msg":"Err occurred: ERR::CTRL::CONN::MAX::ATTEMPT : Control websocket reconnection max attempt reached "}
+{"level":"error","time":"2023-09-04T18:48:57.410+0530","caller":"core/lifecycle.go:346","msg":"Aborting"}
+{"level":"info","time":"2023-09-04T18:48:58.223+0530","caller":"core/lifecycle.go:367","msg":"Tunnel stopped successfully"}
+{"level":"error","time":"2023-09-04T18:48:58.223+0530","caller":"cmd/lt.go:217","msg":"Aborting"}

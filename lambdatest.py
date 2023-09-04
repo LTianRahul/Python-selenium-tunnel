@@ -2,9 +2,11 @@ import os
 import unittest
 import sys
 from selenium import webdriver
+import subprocess
 
 username = os.environ.get("LT_USERNAME")
 access_key = os.environ.get("LT_ACCESS_KEY")
+tunnelName = "Rahul Tunnel"
 
 
 class FirstSampleTest(unittest.TestCase):
@@ -20,6 +22,7 @@ class FirstSampleTest(unittest.TestCase):
 				"platformName": "Windows 11",
 				"selenium_version": "4.0.0",
 				"tunnel": True,
+				"tunnelName": "RahulPythonTest"
 			},
 			"browserName": "Chrome",
 			"browserVersion": "latest",
@@ -50,7 +53,7 @@ class FirstSampleTest(unittest.TestCase):
 if __name__ == "__main__":
 
 	#start tunnel process
-	tunnel_process = subprocess.Popen(["./LT","--user",username,"--key",access_key],stdout=subprocess.DEVNULL,stderr=subprocess.STDOUT)
+	tunnel_process = subprocess.Popen(["./LT","--user",username,"--key",access_key, "--tunnelName",tunnelName],stdout=subprocess.DEVNULL,stderr=subprocess.STDOUT)
 	
 	#run testcases
 	unittest.main()
